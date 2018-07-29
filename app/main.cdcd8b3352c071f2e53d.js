@@ -30573,7 +30573,7 @@ function initFactory() {
                         environmentService.baseUrl = window.location.origin;
                     }
                     return [4 /*yield*/, apiService.setUrls({
-                            base: window.location.origin,
+                            base: null,
                             api: "https://sescy7k390.execute-api.us-east-1.amazonaws.com/prod",
                             identity: "https://sescy7k390.execute-api.us-east-1.amazonaws.com/prod",
                         })];
@@ -39382,7 +39382,7 @@ var I18nService = /** @class */ (function (_super) {
                 switch (_a.label) {
                     case 0:
                         filePath = this.localesDirectory + '/' + formattedLocale + '/messages.json?cache=' +
-                            "sbigc";
+                            "flmqj";
                         return [4 /*yield*/, fetch(filePath)];
                     case 1:
                         localesResult = _a.sent();
@@ -39739,4 +39739,4 @@ exports.WebPlatformUtilsService = WebPlatformUtilsService;
 /***/ })
 
 /******/ });
-//# sourceMappingURL=main.def5d609e86996c2a09b.js.map
+//# sourceMappingURL=main.cdcd8b3352c071f2e53d.js.map
